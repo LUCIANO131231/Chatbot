@@ -1,0 +1,58 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": ["Hola", "Hola, ¿Cómo estás?", "¡Buen día!", "¿Qué tal?", "Saludos", "Hey"],
+      "responses": ["Hola, soy un chatbot desarrollado por los universitarios de la UDH",
+                    "¡Hola! Soy un asistente virtual aquí para responder tus preguntas",
+                    "¿En qué puedo ayudarte hoy?",
+                    "Buenas, ¿en qué puedo asistirte hoy?",
+                    "¡Hola! ¿Cómo puedo ayudarte en este momento?"]
+    },
+
+    {
+      "tag": "despedida",
+      "patterns": ["Adiós", "Hablamos", "Hasta luego", "Bye", "Safo", "Cuidate mano", "Nos vemos", "Hasta pronto"],
+      "responses": ["Hasta luego, ¡pásala chevere!",
+                    "Nos vemos, pes cuñado",
+                    "Safo, ¡éxitos en todo!",
+                    "Hablamos, ¡que tengas un buen día!",
+                    "Bye bye, ¡manito!",
+                    "Cuidate mano, ¡hasta la próxima!",
+                    "Hasta pronto, ¡saludos por casa!",
+                    "Adiós, ¡nos vemos por el barrio!"]
+    },
+    {
+      "tag" : "hora",
+      "patterns" : ["Que hora es?", "Cuál es la hora actual?","Me puedes dar la hora?"],
+      "responses" : [""]
+    },
+    {
+      "tag" : "youtube",
+      "patterns" : ["Quiero ver youtube","Reproduce un video de Youtube"],
+      "responses" : ["Claro, ¿cómo se llama tu video?",
+                    "¡Excelente! Necesito el nombre del video para reproducirlo",
+                    "Dime el nombre del video y lo buscaré en YouTube"]
+    },
+    {
+      "tag": "lexico_vocabulario_en_A",
+      "patterns": ["¿Qué significa ABABOL?",
+                    "Definición de ABACERÍA",
+                    "Explícame el término ABACO",
+                    "Dime qué es un ABAD",
+                    "¿Qué quiere decir ABADA?",
+                    "Significado de ABADEJO",
+                    "Definición de ABADÍA",
+                    "Explícame el término ABAJADERO"],
+                    
+      "responses": ["ABABOL: Persona distraída, simple, abobada.",
+                    "ABACERÍA: Puesto o tienda donde se venden al por menor aceite, vinagre, legumbres secas, bacalao, etc.",
+                    "ABACO: Cuadro de madera con diez cuerdas o alambres paralelos y en cada uno de ellos otras tantas bolas móviles, usado en las escuelas para enseñar a los niños los rudimentos de la aritmética, y en algunos países para ciertas operaciones elementales en el comercio. También se conoce como nomograma o la parte superior en forma de tablero que corona el capitel. En las minas, artesa que se usa para lavar los minerales, especialmente los de oro.",
+                    "ABAD: Superior de un monasterio de hombres, considerado abadía. También puede referirse a una corraleja.",
+                    "ABADA: Nombre que se le da al rinoceronte en algunas regiones.",
+                    "ABADEJO: Pez del mar de las Antillas, de color oscuro y escamas pequeñas y rectangulares. También se conoce como reyezuelo o carraleja.",
+                    "ABADÍA: Dignidad de abad o de abadesa. También puede referirse a una iglesia y monasterio con territorio propio regidos por un abad.",
+                    "ABAJADERO: Terreno en pendiente o cuesta."]
+    }    
+  ]
+}
